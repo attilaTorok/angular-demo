@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SpinningDataLoader } from './spinningDataLoader.directive';
-import { BytesToHumanReadablePipe } from './bytes-to-human-readable-.pipe';
+import { SpinningDataLoader } from './directive/spinningDataLoader.directive';
+import { BytesToHumanReadablePipe } from './pipe/bytes-to-human-readable-.pipe';
 
 @NgModule({
   declarations: [
